@@ -1,3 +1,6 @@
+shadow_mod = {}
+
+dofile(minetest.get_modpath("shadow_mod").."/crafting.lua")
 
 minetest.register_node("shadow_mod:szblock", {
 description = "szblock",
